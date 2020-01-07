@@ -1,0 +1,47 @@
+{
+	// Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Create a fake test route": {
+		"prefix": "test",
+		"body": [
+			"Route::get('/test', function(){",
+			"\t$1",
+			"});"
+		],
+		"description": "Create a fake test route"
+	},
+	"Create a construct method": {
+		"prefix": "construct",
+		"body": [
+			"public function __construct(){",
+			"\t$1",
+			"}"
+		],
+		"description": "Create a construct method"
+	},
+	"Create an index method": {
+		"prefix": "index",
+		"body": [
+			"public function index(){",
+			"\t$1",
+			"}"
+		],
+		"description": "Create an index method"
+    },
+    "Create a new test method": {
+        "prefix": "@test",
+        "body": [
+            "/**",
+            " * @test",
+            " **/",
+            "public function $1()",
+            "{",
+            "\t\\$this->assertTrue(true);",
+            "}"
+        ],
+        "description": "Create a fake test route"
+    },
+}
