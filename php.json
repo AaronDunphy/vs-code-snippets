@@ -25,11 +25,61 @@
 	"Create an index method": {
 		"prefix": "index",
 		"body": [
-			"public function index(){",
+            "public function index()",
+            "{",
 			"\t$1",
 			"}"
 		],
 		"description": "Create an index method"
+    },
+    "Create a create method": {
+		"prefix": "create",
+		"body": [
+			"public function create(){",
+			"\t$1",
+			"}"
+		],
+		"description": "Create a create method"
+    },
+    "Create a store method": {
+		"prefix": "store",
+		"body": [
+            "public function store(Request \\$request)",
+            "{",
+			"\t$1",
+			"}"
+		],
+		"description": "Create a store method"
+    },
+    "Create an edit method": {
+		"prefix": "edit",
+		"body": [
+            "public function edit()",
+            "{",
+			"\t$1",
+			"}"
+		],
+		"description": "Create an edit method"
+    },
+    "Create an update method": {
+		"prefix": "update",
+		"body": [
+            "public function update(Request \\$request)",
+            "{",
+			"\t$1",
+			"}"
+		],
+		"description": "Create an update method"
+    },
+    "Create a delete method": {
+		"prefix": "delete",
+		"body": [
+            "public function delete(Request \\$request)",
+            "{",
+			"\t$1",
+			"}"
+		],
+		"description": "Create a delete method"
     },
     "Create a new test method": {
         "prefix": "@test",
