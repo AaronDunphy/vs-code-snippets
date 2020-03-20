@@ -18,7 +18,8 @@
 	"Create a construct method": {
 		"prefix": "construct",
 		"body": [
-			"public function __construct(){",
+            "public function __construct()",
+            "{",
 			"\t$1",
 			"}"
 		],
@@ -78,6 +79,16 @@
 		"prefix": "delete",
 		"body": [
             "public function delete(Request \\$request)",
+            "{",
+			"\t$1",
+			"}"
+		],
+		"description": "Create a delete method"
+    },
+    "Create an execture method": {
+		"prefix": "execute",
+		"body": [
+            "public function execute()",
             "{",
 			"\t$1",
 			"}"
