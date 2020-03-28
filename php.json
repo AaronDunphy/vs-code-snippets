@@ -75,10 +75,10 @@
 		],
 		"description": "Create an update method"
     },
-    "Create a delete method": {
-		"prefix": "delete",
+    "Create a destroy method": {
+		"prefix": "destroy",
 		"body": [
-            "public function delete(Request \\$request)",
+            "public function destroy(Request \\$request)",
             "{",
 			"\t$1",
 			"}"
